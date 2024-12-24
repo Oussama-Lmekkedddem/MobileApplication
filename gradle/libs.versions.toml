@@ -1,0 +1,62 @@
+[versions]
+adapterRxjava2 = "2.7.2"
+agp = "8.7.3"
+androidsvgloader = "1.0.2"
+androidxJunit = "1.1.2"
+appcompatVersion = "1.3.0"
+commonsIo = "2.13.0"
+constraintlayout = "2.2.0"
+coordinatorlayout = "1.2.0"
+espressoCoreVersion = "3.3.0"
+gifimageview = "2.1.0"
+googleMaterial = "1.0.0"
+googleMaterialVersion = "1.4.0-rc01"
+junit = "4.13.2"
+junitJunit = "4.12"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+legacySupportV4 = "1.0.0"
+lifecycleViewmodelKtx = "2.8.7"
+material = "1.12.0"
+materialVersion = "1.3.0"
+parseAndroid = "1.17.3"
+picasso = "2.71828"
+recyclerview = "1.3.2"
+rxandroid = "3.0.0"
+rxjava = "3.0.12"
+
+[libraries]
+adapter-rxjava2 = { module = "com.squareup.retrofit2:adapter-rxjava2", version.ref = "adapterRxjava2" }
+androidsvgloader = { module = "com.github.ar-android:AndroidSvgLoader", version.ref = "androidsvgloader" }
+appcompat-v130 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+commons-io = { module = "commons-io:commons-io", version.ref = "commonsIo" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "adapterRxjava2" }
+coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinatorlayout" }
+espresso-core-v330 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+gifimageview = { module = "com.felipecsl:gifimageview", version.ref = "gifimageview" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+junit-v112 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+junit-v412 = { module = "junit:junit", version.ref = "junitJunit" }
+legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleViewmodelKtx" }
+lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+material-v100 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+material-v130 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material-v140rc01 = { module = "com.google.android.material:material", version.ref = "googleMaterialVersion" }
+parse-android = { module = "com.parse:parse-android", version.ref = "parseAndroid" }
+parse-fcm-android = { module = "com.parse:parse-fcm-android", version.ref = "parseAndroid" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "adapterRxjava2" }
+rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
+rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
