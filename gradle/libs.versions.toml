@@ -1,6 +1,6 @@
 [versions]
 adapterRxjava2 = "2.7.2"
-agp = "8.7.3"
+agp = "8.5.0"
 androidsvgloader = "1.0.2"
 androidxJunit = "1.1.2"
 appcompatVersion = "1.3.0"
